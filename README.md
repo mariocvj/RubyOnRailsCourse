@@ -45,6 +45,9 @@ Generiranje controllera:
 postaviti terminal u direktory od projekta (~/environment/helloworld) i pokrenuti naredbu:     rails generate controller pages index contact about
 ako je nesto drugo umijesto "pages", treba i dalje biti MNOZINA sa s
 
+Partial HTML file: Ime pocinje sa _ i zavrsava sa .html.erb
+Partial rendering syntax: <%= render 'layouts/nav' %>
+
 
 Pitanja:
 
