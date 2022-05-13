@@ -34,6 +34,7 @@ git remote add origin git@github.com:mariocvj/RubyOnRailsCourse.git
 git remote -v
 git checkout master
 git merge production
+git checkout -b hotfix
 
 Commitanje svih promjena na git:
 git add -A 
