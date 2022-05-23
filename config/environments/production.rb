@@ -64,6 +64,8 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "helloworld_#{Rails.env}"
 
   config.action_mailer.perform_caching = false
+  config.action_mailer.default_url_options = { host: 'https://mariosarticles.herokuapp.com/'}
+  config.action_mailer.delivery_method = :smtp
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -79,7 +81,7 @@ Rails.application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
   
-  config.action_mailer.default_url_options = { host: 'https://mariosarticles.herokuapp.com/'}
+
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
